@@ -1,0 +1,26 @@
+{
+  "name": "etcchain-node",
+  "version": "0.0.0",
+  "license": "GPLv3",
+  "engine": "node >= 0.10.36",
+  "description": "Node wrapper for accessing the etcchain v1 API.",
+  "main": "index.js",
+  "contributors": [
+    "Heroas <hero@protagonist.xyz>"
+  ],
+  "maintainers": [
+    "Heroas <hero@protagonist.xyz>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroas/etcchain-node.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
