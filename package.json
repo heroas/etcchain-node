@@ -4,7 +4,7 @@
   "license": "GPLv3",
   "engine": "node >= 0.10.36",
   "description": "Node wrapper for accessing the etcchain v1 API.",
-  "main": "index.js",
+  "main": "etcchain.js",
   "contributors": [
     "Heroas <hero@protagonist.xyz>"
   ],
@@ -20,7 +20,10 @@
     "ethereum"
   ],
   "dependencies": {
+    "lodash": "^4.17.5",
+    "q": "^1.5.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
