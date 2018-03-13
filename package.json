@@ -1,9 +1,9 @@
 {
   "name": "etcchain-node",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "GPLv3",
   "engine": "node >= 0.10.36",
-  "description": "Node wrapper for accessing the etcchain v1 API.",
+  "description": "Emberassingly simple node wrapper for accessing the etcchain v1 API.",
   "main": "etcchain.js",
   "contributors": [
     "Heroas <hero@protagonist.xyz>"

@@ -20,7 +20,7 @@ API.prototype._request = function(endpoint) {
       return response
     }).catch(handleError)
   } catch (err) {
-    return console.log(err)
+    return q.reject(err)
   }
 }
 
