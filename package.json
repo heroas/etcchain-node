@@ -1,6 +1,6 @@
 {
   "name": "etcchain-node",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "GPLv3",
   "engine": "node >= 0.10.36",
   "description": "Emberassingly simple node wrapper for accessing the etcchain v1 API.",
@@ -17,7 +17,8 @@
   },
   "keywords": [
     "blockchain",
-    "ethereum"
+    "ethereum",
+    "ethereum classic"
   ],
   "dependencies": {
     "lodash": "^4.17.5",
