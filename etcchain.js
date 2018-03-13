@@ -29,6 +29,17 @@ API.prototype.getBalance = function(address) {
   return this._request(endpoint);
 }
 
+API.prototype.getIndex = function() {
+  var endpoint = 'getIndex'
+  return this._request(endpoint);
+}
+
+API.prototype.getTransactionsByAddress = function(address, page, offset, sort) {
+  var endpoint = 'getTransactionsByAddress?address=' + address + '&page=' + page + '&offset=' + offset + '&sort=' + sort
+  return this._request(endpoint);
+}
+
+
 function handleError(e) {
   throw e.error || e || 'Unexpected error'
 }
