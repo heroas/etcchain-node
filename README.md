@@ -1,4 +1,6 @@
 # etcchain-node
+[![npm version](https://badge.fury.io/js/etcchain-node.svg)](https://badge.fury.io/js/etcchain-node)
+
 Embarrassingly simple api wrapper for EtcChain api.
 
 Using EtcChain api v1. Get official documentation from  [here](https://etcchain.com/api/).
