@@ -8,8 +8,8 @@ npm install --save etcchain-node
 ```
 ## Importing
 ```js
-var API = require('etcchain-node');
-var etcchainApi = new API();
+var ETCCHAIN = require('etcchain-node');
+var etcchainApi = new ETCCHAIN();
 ```
 
 ## Methods

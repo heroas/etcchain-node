@@ -1,7 +1,7 @@
 var request = require('request-promise')
 var q = require('q')
 
-var API = function() {
+var ETCCHAIN = function() {
   this.options = {
     base: 'https://etcchain.com/api/v1/',
     uri: '',
@@ -12,7 +12,7 @@ var API = function() {
   };
 }
 
-API.prototype._request = function(endpoint) {
+ETCCHAIN.prototype._request = function(endpoint) {
   try {
     this.options.uri = this.options.base + endpoint
     console.log(this.options)
@@ -25,17 +25,17 @@ API.prototype._request = function(endpoint) {
   }
 }
 
-API.prototype.getBalance = function(address) {
+ETCCHAIN.prototype.getBalance = function(address) {
   var endpoint = 'getAddressBalance?address=' + address
   return this._request(endpoint);
 }
 
-API.prototype.getIndex = function() {
+ETCCHAIN.prototype.getIndex = function() {
   var endpoint = 'getIndex'
   return this._request(endpoint);
 }
 
-API.prototype.getTransactionsByAddress = function(address, page, offset, sort) {
+ETCCHAIN.prototype.getTransactionsByAddress = function(address, page, offset, sort) {
   var endpoint = 'getTransactionsByAddress?address=' + address + '&page=' + page + '&offset=' + offset + '&sort=' + sort
   return this._request(endpoint);
 }
@@ -45,4 +45,4 @@ function handleError(e) {
   throw e.error || e || 'Unexpected error'
 }
 
-module.exports = API;
+module.exports = ETCCHAIN;

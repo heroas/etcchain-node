@@ -1,6 +1,6 @@
 {
   "name": "etcchain-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "GPLv3",
   "engine": "node >= 0.10.36",
   "description": "Emberassingly simple node wrapper for accessing the etcchain v1 API.",
