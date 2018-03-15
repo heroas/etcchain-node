@@ -1,4 +1,5 @@
 var request = require('request-promise')
+var q = require('q')
 
 var API = function() {
   this.options = {
